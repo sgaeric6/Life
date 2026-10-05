@@ -1,7 +1,6 @@
 {
-  "name": "life-game",
+  "name": "lagos-life-sim",
   "version": "0.1.0",
-  "description": "Lagos Life - Multiplayer 3D Life Simulation Game",
   "private": true,
   "workspaces": [
     "frontend",
@@ -12,7 +11,6 @@
     "dev": "concurrently \"npm run dev -w frontend\" \"npm run dev -w backend\"",
     "build": "npm run build -w frontend && npm run build -w backend",
     "start": "concurrently \"npm start -w frontend\" \"npm start -w backend\"",
-    "test": "npm run test -w frontend && npm run test -w backend",
     "lint": "npm run lint -w frontend && npm run lint -w backend",
     "type-check": "npm run type-check -w frontend && npm run type-check -w backend"
   },

@@ -1,0 +1,35 @@
+{
+  "name": "lagos-life-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^14.2.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.165.0",
+    "@react-three/fiber": "^8.16.8",
+    "@react-three/drei": "^9.102.0",
+    "socket.io-client": "^4.7.0",
+    "zustand": "^4.7.0",
+    "axios": "^1.7.2",
+    "tailwindcss": "^3.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/three": "^0.165.0",
+    "typescript": "^5.5.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.15"
+  }
+}
